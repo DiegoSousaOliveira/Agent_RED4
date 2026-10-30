@@ -1,0 +1,17 @@
+{
+  "description": "Cenário de gravação: worker executado direto com --agent-fps 60 (5 s por execução, OpenCV em 1 thread), sem trazer o jogo para a frente. Só as execuções feitas depois que o jogo estabilizou; nas primeiras, logo após abrir o jogo, o PrintWindow ficou preso em 30 FPS e a windows-capture recebeu quadros sem a barra de título.",
+  "date": "2026-10-28",
+  "fps": 60,
+  "runs": {
+    "printwindow": [
+      {"calls_per_s": 60.0, "new_frames_per_s": 60.0, "cpu_percent": 39.6, "latency_median_ms": 15.11, "latency_p95_ms": 15.88},
+      {"calls_per_s": 60.0, "new_frames_per_s": 60.0, "cpu_percent": 38.4, "latency_median_ms": 16.27, "latency_p95_ms": 17.12},
+      {"calls_per_s": 60.0, "new_frames_per_s": 60.0, "cpu_percent": 40.2, "latency_median_ms": 14.53, "latency_p95_ms": 15.64}
+    ],
+    "windows-capture-stream": [
+      {"calls_per_s": 60.2, "new_frames_per_s": 41.6, "cpu_percent": 32.2, "latency_median_ms": 2.70, "latency_p95_ms": 3.43},
+      {"calls_per_s": 60.2, "new_frames_per_s": 60.2, "cpu_percent": 31.2, "latency_median_ms": 2.03, "latency_p95_ms": 2.35},
+      {"calls_per_s": 60.2, "new_frames_per_s": 60.2, "cpu_percent": 26.9, "latency_median_ms": 2.05, "latency_p95_ms": 2.36}
+    ]
+  }
+}
