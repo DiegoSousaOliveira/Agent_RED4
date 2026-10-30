@@ -1,0 +1,14 @@
+# Capture libraries compared by the benchmark (versions it was run with)
+mss>=10.2.0
+pillow>=13.0.0
+pyautogui>=0.9.54
+pywin32>=312
+dxcam>=0.3.0
+bettercam>=1.0.0
+windows-capture>=2.0.1
+
+# Measurement and report
+numpy>=2.5
+opencv-python>=5.0
+psutil>=7.2
+matplotlib>=3.11
